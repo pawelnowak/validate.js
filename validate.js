@@ -254,10 +254,10 @@
                 }
 
                 this.errors.push({
-                	'error'	: message,
-                	'id'	: field.id,
-                	'name'	: field.name,
-                	'type'	: field.type,
+                	'message' : message,
+                	'id'      : field.id,
+                	'name'    : field.name,
+                	'type'    : field.type,
                 });
 
                 // Break out so as to not spam with validation errors (i.e. required and valid_email)
